@@ -1,0 +1,129 @@
+/* Estilos generales del cuerpo de la página */
+body {
+    font-family: Arial, sans-serif; /* Define la fuente del texto */
+    margin: 0; /* Elimina el margen exterior */
+    padding: 0; /* Elimina el relleno interior */
+    background-color: #f4f4f4; /* Establece el color de fondo */
+    color: #333; /* Define el color del texto */
+    
+}
+.cursiva{
+    font-style: italic; /* Texto en cursiva */
+    font-size: 1.2em; /* Define el tamaño de la fuente */
+}
+
+/* Estilos para los encabezados */
+h1 {
+    text-align: center; /* Centra el texto */
+    font-size: 2.5em; /* Define el tamaño de la fuente */
+    color: white; 
+    margin-top: 5px; 
+    margin-bottom: 5px;
+}
+
+h2 {
+    text-align: center;
+    color: #2c3e50; 
+    font-size: 1.6em; /* Define el tamaño de la fuente */
+    margin-top: 5px; /* Añade un margen superior */
+    margin-bottom: 0%;
+    margin: 30px;
+}
+
+/* Estilos para el encabezado */
+header {
+    background: #8B0000; /* Define el color de fondo */
+    color: white; 
+    text-align: center; 
+    padding: 1px; /* Añade un espacio interno */
+}
+
+/* Estilos para la barra de navegación */
+nav ul {
+    display: flex; /* Usa flexbox para alinear los elementos */
+    justify-content: center; /* Centra los elementos de la lista */
+    list-style: none; /* Elimina los estilos de lista */
+    padding: 0; /* Elimina el relleno */
+    background: #A52A2A; /* Define el color de fondo */
+}
+
+nav ul li {
+    margin: 0 20px; /* Agrega un margen entre los elementos */
+}
+
+nav ul li a {
+    color: white; 
+    text-decoration: none; /* Elimina el subrayado del enlace */
+    padding: 5px; 
+}
+
+nav ul li a:hover {
+    background: #800000; /* Cambia el color de fondo al pasar el cursor */
+}
+
+/* Estilos para la imagen de introducción */
+.intro img {
+    display: block; /* Hace que la imagen sea un bloque */
+    height: 500px;  /* Define la altura de la imagen */
+    width: 90%;    /* Establece el ancho al 100% */
+    border-radius: 10px; /* Redondea las esquinas */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Agrega una sombra */
+    margin: 0 auto; /* Centra la imagen */
+    margin-top: 15px;
+   
+}
+.mapa {
+    width: 100%;
+    max-width: 450px; /* Ajusta el tamaño del mapa */
+    display: block;
+    margin: 0 auto;
+}
+
+.intro p{
+    font-family: Arial, sans-serif; /* Define la fuente del texto */
+    text-align: justify; /* Justifica el texto */
+    color: #34495e; /* Define el color del texto */
+    font-size: 1.2em; /* Define el tamaño de la fuente */
+    margin: 50px; /* Agrega margen */
+    margin-top: 5px;
+    margin-bottom: 15px;
+    line-height: 1.6; /* Ajusta la altura de línea */
+    padding: 10px; /* Agrega espacio interno */
+}
+
+/* Sección de destacados */
+.destacados {
+    text-align: center; /* Centra el texto */
+    padding: 20px; /* Agrega espacio interno */
+    margin: 20px;
+    margin-bottom: 0%;
+}
+
+.destacados .grid {
+    display: flex; /* Usa flexbox */
+    justify-content: center; /* Centra los elementos */
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan en varias líneas */
+}
+
+.destacados a {
+    text-decoration: none; /* Elimina el subrayado */
+    background: #8B0000; /* Define el color de fondo */
+    color: white; /* Establece el color del texto */
+    padding: 15px; /* Agrega relleno */
+    margin: 10px; /* Agrega margen alrededor del botón */
+    border-radius: 5px; /* Redondea las esquinas */
+}
+
+/* Estilos para el pie de página */
+footer {
+    text-align: center; /* Centra el texto */
+    padding: 15px; /* Agrega espacio interno */
+    background: #333; /* Define el color de fondo */
+    color: white; /* Establece el color del texto */
+    margin-top: 20px; /* Agrega margen superior */
+}
+
+
+
+
+

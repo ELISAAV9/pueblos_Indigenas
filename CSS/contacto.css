@@ -1,0 +1,84 @@
+.contac ul {
+    font-family: Arial, sans-serif; /* Fuente */
+    text-align: justify; /* Mejor alineación para listas */
+    color: #2c3e50; /* Color más oscuro para mejor contraste */
+    font-size: 1.2em; /* Ajusta ligeramente el tamaño */
+    margin: 10px auto; /* Reduce el margen lateral y lo centra */
+    padding: 15px; /* Agrega más espacio interno *
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    width: 80%; /* Controla el ancho */
+    line-height: 1.6; /
+}
+
+/* Estilos para los elementos de la lista */
+.contac ul li {
+    margin-bottom: 8px; /* Espaciado entre elementos */
+    padding-left: 15px; /* Desplazamiento para alineación */
+    list-style: square; /* Cambia el tipo de viñeta */
+}
+
+.contac p{
+    font-family: Arial, sans-serif; /* Define la fuente del texto */
+    text-align: justify; /* Justifica el texto */
+    color: #34495e; /* Define el color del texto */
+    font-size: 1.2em; /* Define el tamaño de la fuente */
+    margin: 50px; /* Agrega margen */
+    margin-top: 5px;
+    margin-bottom: 15px;
+    line-height: 1.6; /* Ajusta la altura de línea */
+    padding: 10px; /* Agrega espacio interno */ 
+}
+.contac img {
+    width: 100%; /* Ocupar todo el contenedor */
+    height: auto;
+    max-width: 30%; /* Tamaño máximo aún mayor */
+    border-radius: 15px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 10px ;
+}
+
+/* Estilos para los botones */
+.contac input[type="submit"],
+.contac input[type="reset"] {
+    width: 48%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #75c9f0;
+}
+
+.contac input[type="submit"]:hover,
+.contac input[type="reset"]:hover {
+    background: #eef08f; /* Cambia el color de fondo al pasar el cursor */
+}
+
+/* Estilos para los fieldset */
+.contac fieldset {
+    border: 2px solid #888; /* Borde del fieldset */
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #e3f2fd; /* Color de fondo del fieldset */
+}
+
+/* Contenedor principal */
+.contac div {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra el formulario */
+}
+
+.contac form {
+    background: rgb(253, 252, 253); /* Fondo blanco */
+    padding: 20px;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    width: 600px; /* Ancho del formulario */
+}
+
+
