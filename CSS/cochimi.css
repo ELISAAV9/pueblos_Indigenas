@@ -1,0 +1,75 @@
+.coc p {
+    font-family: Arial, sans-serif; /* Define la fuente del texto */
+    text-align: justify; /* Justifica el texto */
+    color: #34495e; /* Define el color del texto */
+    font-size: 1.2em; /* Define el tamaño de la fuente */
+    margin: 50px; /* Agrega margen */
+    margin-top: 5px;
+    margin-bottom: 15px;
+    line-height: 1.6; /* Ajusta la altura de línea */
+    padding: 15px; /* Agrega espacio interno */   
+}
+
+.coc ul, ol {
+    font-family: Arial, sans-serif;
+    text-align: justify;
+    color: #2c3e50;
+    font-size: 1.2em;
+    margin: 10px auto;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    line-height: 1.6;
+}
+
+/* Corregido el comentario mal cerrado */
+.coc ul li {
+    margin-bottom: 8px; /* Espaciado entre elementos */
+    padding-left: 15px; /* Desplazamiento para alineación */
+    list-style: square; /* Cambia el tipo de viñeta */
+}
+
+.coc img {
+    display: block;
+    width: 80%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+
+table {
+    width: 60%; /* Ajusta el ancho de la tabla */
+    border-collapse: collapse;
+    border: 1px solid rgb(255, 255, 255);
+    margin: auto; /* Centra la tabla horizontalmente */
+    background-color: rgb(233, 248, 213);
+}
+th, td {
+    border: 1px solid rgb(255, 255, 255);;
+    padding: 10px;
+    text-align: left;
+}
+
+.imagen {
+    text-align: center;
+}
+.titulo h3{
+    text-align: center;
+    font-size: 1.6empx;
+    font-weight: bold;
+    background-color: #b3adad;
+}
+
+.mapa iframe {
+    width: 100%; /* Hace que el mapa ocupe todo el ancho disponible */
+    height: 450px; /* Ajusta la altura del mapa */
+    border: 2px solid #ddd; /* Agrega un borde suave */
+    border-radius: 10px; /* Redondea las esquinas del iframe */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Agrega una sombra sutil */
+    margin-top: 30px; /* Agrega margen superior para separación */
+
+}
